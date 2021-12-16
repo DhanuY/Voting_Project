@@ -1,0 +1,39 @@
+
+h1{
+    background:linear-gradient(#f44ffa, #f2f53c) ;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#container{
+    background:linear-gradient(#a6a9ad, #e9e9e1) ;
+    width: 55%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    box-shadow:10px 10px 5px grey;
+}
+label{
+    font-weight: bold;
+    display: inline-block;
+    margin: 6px;
+}
+input[type=date],[type=number],[type=text]{
+background: white;
+border: 2px solid rgb(10, 117, 58);
+border-radius:2px;
+border-width: 1px;
+color: rgb(10, 3, 17);
+}
+
+input[type=submit]{
+
+    color:rgb(9, 12, 10);
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px 13px;
+    border: 1px solid rgb(36, 32, 32);
+    border-radius: 3px;
+}
+

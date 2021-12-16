@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Managment System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Voting Managment System</h1>
+    <div id="container">
+        <fieldset>
+            <label for="fname">First Name</label><br>
+            <input type="text" name="fname" id="fname" required><br><br>
+
+            <label for="lname">Last Name</label><br>
+            <input type="text" name="lname" id="lname" required><br><br>
+
+            <label>DOB</label><br>
+            <input type="date"><br><br>
+
+            <label for="gen">Gender</label><br>
+            <input type="radio" name="gender" id="male">Male
+            <input type="radio" name="gender" id="female">Female<br><br>
+
+            <label for="cnum">CNIC</label><br>
+            <input type="number" name="cnum" id="cnum" required><br><br>
+
+            <label>State</label><br>
+            <select name="stateName">
+                <option value="Null">select state</option>
+                    <option value="MH">Maharashtra</option>
+                    <option value="GJ">Gujarat</option>
+                    <option value="RJ">Rajasthan</option>
+                    <option value="UP">Uttar Pradesh</option>
+                    <option value="BR">Bihar</option>
+                    <option value="TN">Tamilnadu</option>
+                <option value="MP">Madhya Pradesh</option>
+            </select><br><br>
+
+            <label>Political Party</label><br>
+            <select name="Pname">
+                <option value="Null">select party</option>
+                    <option value="b">BJP</option>
+                    <option value="n">NCP</option>
+                    <option value="np">NPP</option>
+                    <option value="i">INC</option>
+            </select><br>
+        </fieldset><br>
+        <input type="submit" value="Submit">
+    </div>
+</body>
+
+</html>
